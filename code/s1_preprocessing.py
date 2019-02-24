@@ -74,7 +74,7 @@ def fill_mv_LotFrontage(df,r0):
                 df.loc[ mv_idx , ['LotFrontage'] ] = ols.predict( np.array(df.loc[mv_idx, 'LotArea' ]).reshape(-1,1) )
                 print("imputed with regression \n", df.loc[ mv_idx , ['LotFrontage'] ],"\n" )
             else:
-                df.loc[ mv_idx , ['LotFrontage'] ] = np.median(X)
+                df.loc[ mv_idx , ['LotFrontage'] ] = np.median(Y)
                 print("imputed with neighborhood median \n",  df.loc[ mv_idx , ['LotFrontage'] ],"\n" )
     return df
 
