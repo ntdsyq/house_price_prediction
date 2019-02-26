@@ -61,7 +61,7 @@ for v in cont_vars:
 ovr_scores = pd.DataFrame(scores, index = ['R2'])
 ovr_scores = ovr_scores.T.reset_index()
 ovr_scores.rename(columns={'index':'FeatureAsResponse'}, inplace=True)
-ovr_scores.sort_values(by='R2',ascending=False)
+print(ovr_scores.sort_values(by='R2',ascending=False))
 #sns.barplot(x = 'FeatureAsResponse', y = 'R2', data = ovr_scores)
 #plt.title('R2 of a continuous feature against the other features')
 
@@ -94,3 +94,5 @@ table.columns = ['name','coef','std err','t value','p value','2.5% confidence','
 table = table.astype({'name':str,'coef':float,'std err':float, 't value':float, 'p value':float,'2.5% confidence':float, '97.5% confidence':float})
 subtable = table[table['p value']<0.05][['name','coef','std err']]
 subtable = subtable.sort_values(by='coef',ascending=False)
+
+# take a look at 
