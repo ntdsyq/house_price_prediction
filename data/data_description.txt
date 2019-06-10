@@ -1,3 +1,5 @@
+http://jse.amstat.org/v19n3/decock/DataDocumentation.txt
+
 MSSubClass: Identifies the type of dwelling involved in the sale.	
 
         20	1-STORY 1946 & NEWER ALL STYLES
