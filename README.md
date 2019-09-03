@@ -7,6 +7,6 @@ folder /code has two subfolders /basecase and /engineered. These two folders con
 
 2) Using the basecase data as a starting point, we experimented with various feature selection and feature engineering techniques to arrive at the engineered dataset. Our FS and FE efforts were guided by the feature importance from the baseline models and more EDA. As lasso performed the best on the baseline data among all models, we focused on engineering features that improves the performance of the lasso model. In addition to individual models, we also tested stacking models on this dataset. 
 
-We were able to achieve RMSE of 0.11664 (top 15%) with the stacking model. Please see details in this blogpost [insert link]. 
+We were able to achieve RMSE of 0.11664 (top 15%) with the stacking model. Please see details in this blogpost https://nycdatascience.com/blog/student-works/what-price-is-right-for-that-home-a-machine-learning-approach/. 
 
 
