@@ -1,5 +1,5 @@
 Predict house price in Ames, Iowa sold 2006 to 2010 using machine learning techniques
-[Data source](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+([Data source](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data))
 
 folder /data contains the training data, test data and data description from the Kaggle competition. 
 folder /code has two subfolders /basecase and /engineered. These two folders contains the code, analysis, results and submission files for two datasets. 
